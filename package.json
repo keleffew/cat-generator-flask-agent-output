@@ -1,0 +1,12 @@
+{
+  "name": "cat-generator",
+  "version": "1.0.0",
+  "description": "A Flask-based Cat Generator web app",
+  "scripts": {
+    "build-css": "tailwindcss -i ./static/css/main.css -o ./static/css/styles.css --minify",
+    "watch-css": "tailwindcss -i ./static/css/main.css -o ./static/css/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
